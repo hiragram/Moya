@@ -12,10 +12,6 @@
 		12F88B3755343FB9DD244AEC /* RxMoya.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A53DF8B33D58E052A78E2BA /* RxMoya.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1425941E1F42FDED00C9E171 /* Single+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FB7A3E1F3E089900308949 /* Single+Response.swift */; };
 		1446FBB31F214C5200C1EFF2 /* URL+Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446FBB21F214C5200C1EFF2 /* URL+Moya.swift */; };
-		1463B87B1F8A8A79002D9C4F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8731F8A8A5B002D9C4F /* Alamofire.framework */; };
-		1463B87C1F8A8A79002D9C4F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8731F8A8A5B002D9C4F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1463B8801F8A8A7F002D9C4F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8731F8A8A5B002D9C4F /* Alamofire.framework */; };
-		1463B8811F8A8A7F002D9C4F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1463B8731F8A8A5B002D9C4F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		147E26EC1F5B14B300C1F513 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147E26EB1F5B14B300C1F513 /* Task.swift */; };
 		148FAF0DFB395B4A64314803 /* ReactiveMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A8C06CC9BA491AE62A431B /* ReactiveMoya.framework */; };
 		149675EC1F81340B0085EDEE /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469A06B01F705DDE001153A0 /* GitHubAPI.swift */; };
@@ -144,7 +140,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1463B87C1F8A8A79002D9C4F /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,7 +151,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				D195C09B24748730005F6E98 /* CombineMoya.framework in Embed Frameworks */,
-				1463B8811F8A8A7F002D9C4F /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,7 +160,6 @@
 /* Begin PBXFileReference section */
 		019BF5A88BB928EBDFD944FE /* ReactiveMoya.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ReactiveMoya.h; sourceTree = "<group>"; };
 		1446FBB21F214C5200C1EFF2 /* URL+Moya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Moya.swift"; sourceTree = "<group>"; };
-		1463B8731F8A8A5B002D9C4F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		147E26EB1F5B14B300C1F513 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		149749421F8923EC00FA4900 /* AnyEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyEncodable.swift; sourceTree = "<group>"; };
 		149749441F892E2F00FA4900 /* URLRequest+Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Encoding.swift"; sourceTree = "<group>"; };
@@ -260,7 +253,6 @@
 			files = (
 				D195C09A24748730005F6E98 /* CombineMoya.framework in Frameworks */,
 				CCB85FCA228B3D1800AAB253 /* Moya.framework in Frameworks */,
-				1463B8801F8A8A7F002D9C4F /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				469A06B21F705ECF001153A0 /* Moya.framework in Frameworks */,
-				1463B87B1F8A8A79002D9C4F /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +304,6 @@
 		0E7C5E12BDDF8CD3A778D84C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1463B8731F8A8A5B002D9C4F /* Alamofire.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
