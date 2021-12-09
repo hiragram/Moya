@@ -1276,35 +1276,6 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Alamofire.xcframework";
-				"FRAMEWORK_SEARCH_PATHS[sdk=appletvos*]" = (
-					"$(inherited)/tvos-arm64",
-					"$(SRCROOT)/Carthage/Build/tvOS",
-				);
-				"FRAMEWORK_SEARCH_PATHS[sdk=appletvsimulator*]" = (
-					"$(inherited)/tvos-arm64_x86_64-simulator",
-					"$(SRCROOT)/Carthage/Build/tvOS",
-				);
-				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
-					"$(inherited)/ios-arm64_armv7",
-					"$(SRCROOT)/Carthage/Build/iOS",
-				);
-				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
-					"$(inherited)/ios-arm64_i386_x86_64-simulator",
-					"$(SRCROOT)/Carthage/Build/iOS",
-				);
-				"FRAMEWORK_SEARCH_PATHS[sdk=macosx*]" = (
-					"$(inherited)/macos-arm64_x86_64",
-					"$(SRCROOT)/Carthage/Build/Mac",
-				);
-				"FRAMEWORK_SEARCH_PATHS[sdk=watchos*]" = (
-					"$(inherited)/watchos-arm64_32_armv7k",
-					"$(SRCROOT)/Carthage/Build/watchOS",
-				);
-				"FRAMEWORK_SEARCH_PATHS[sdk=watchsimulator*]" = (
-					"$(inherited)/watchos-arm64_i386_x86_64-simulator",
-					"$(SRCROOT)/Carthage/Build/watchOS",
-				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
